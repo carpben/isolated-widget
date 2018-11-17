@@ -1,0 +1,23 @@
+{
+  "name": "isolated-widget",
+  "version": "0.1.1",
+  "private": true,
+  "dependencies": {
+    "create-emotion": "^9.2.12",
+    "preact": "^8.3.1",
+    "prop-types": "^15.6.2",
+    "react-scripts-ts": "3.1.0",
+    "serve": "^10.0.2",
+    "stylis-plugin-extra-scope": "^0.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.9",
+    "@types/node": "^10.12.2",
+    "typescript": "^3.1.6"
+  }
+}

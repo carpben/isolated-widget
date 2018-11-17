@@ -1,0 +1,11 @@
+.widget-btn {
+  position: fixed; 
+  bottom: 15px; 
+  right: 15px; 
+  background-color: green; 
+  color: white; 
+  padding: 10px 20px; 
+  border-radius: 15px; 
+  font-size: 20px; 
+  font-weight: 700; 
+}
