@@ -1,15 +1,15 @@
 import { Component, h } from 'preact'
 import DonateBtn from "./DonateBtn"
-import { css, IsolatedApp, keyframes } from "./isolatedEmotion"
+import { css, IsolatedAppW, keyframes } from "./isolatedEmotion"
 
 class App extends Component {
 	public render() {
 		return (
-			<IsolatedApp>
+			<IsolatedAppW>
 				<div class={Box}>
 					<DonateBtn/>
 				</div>
-			</IsolatedApp>	
+			</IsolatedAppW>	
 		)
 	}
 }

@@ -8,7 +8,7 @@ const emotion = createEmotion({}, { stylisPlugins: [extraScopePlugin('#break-36 
 const { css, cx, injectGlobal, keyframes } = emotion
 export { css, cx, injectGlobal, keyframes }
 
-export class IsolatedApp extends Component <any> {
+export class IsolatedAppW extends Component <any> {
 	public render() {
 		return (
 			<BreakFree>
